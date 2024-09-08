@@ -1,0 +1,16 @@
+@import 'bulma/css/bulma.css';
+
+#navbar {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000; /* Para asegurarse de que la barra esté por encima del contenido */
+    }
+  
+    .divider {
+        width: 400px;
+        height: 2px;
+        background-color: #ddd;
+        margin: 2em auto; /* Centrado horizontal */
+      }
